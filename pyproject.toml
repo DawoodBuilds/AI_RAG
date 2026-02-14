@@ -1,0 +1,14 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.12"
+dependencies = [
+    "chromadb>=1.5.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.129.0",
+    "openai>=2.21.0",
+    "pypdf>=6.7.0",
+    "streamlit>=1.54.0",
+]
