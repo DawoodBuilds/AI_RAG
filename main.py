@@ -9,10 +9,16 @@ st.markdown("""
             section[data-testid='stSidebar'] {
                 width: 400px !important;
             }
+            h3, h2, h1{
+                text-align: center;
+                font-size: 30px;
+            }
+            p{
+                padding-left: 5px;
+                font-weight: bold;
+            }
         </style>
 """, unsafe_allow_html=True)
-
-st.title("AI RAG")
 
 def chunker(text: str, size: int, overlap: int):
     chunks : list[str] = []
